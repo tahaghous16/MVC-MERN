@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/", registerRouter);
+app.use("/user", registerRouter);
 
 const PORT = process.env.PORT;
 
